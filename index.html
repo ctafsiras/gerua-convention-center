@@ -103,7 +103,7 @@
         <!-- our services -->
         <section class="container my-5">
             <h1 class="text-center mb-5">Our Services</h1>
-           
+
             <div class="row row-cols-1 row-cols-md-4 g-1">
                 <div class="col py-3">
 
@@ -133,7 +133,7 @@
                                 class="fas fa-check-circle"></i> Food arrangement <br><i
                                 class="fas fa-check-circle"></i> mangement support <br><i
                                 class="fas fa-check-circle"></i> Interior design<br><i class="fas fa-check-circle"></i>
-                                Decoration design </p>
+                            Decoration design </p>
 
                     </div>
                     <div class="text-center"><button class="btn btn-success text-white  rounded-pill">Choose
@@ -185,14 +185,14 @@
         </section>
         <!-- FAQ -->
         <section class="container">
-            <div class="d-flex align-items-center">
-                <div class="w-50">
+            <div class="row row-cols-1 row-cols-md-2 g-1 d-flex flex-column flex-md-row align-items-center">
+                <div class="col order-2 order-md-1">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    What’s the difference between event design and
+                                    Whats the difference between event design and
                                     event planning?
                                 </button>
                             </h2>
@@ -262,33 +262,49 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-50">
+                <div class="col order-1 order-md-2">
                     <img class="img-fluid p-4 rounded" src="images/people.png" alt="">
                 </div>
             </div>
         </section>
-<hr>
+        <hr>
         <!-- subscribe -->
-        <section class="container my-5 d-flex align-items-center justify-content-between">
-            <div class="w-50">
-                <h2>Stay in Touch</h2>
-                <p>Subscribe to our newsletter to stay updated with Convention Center news, events, job listings and more.</p>
-            </div>
-            <div class="w-50">
-                <h5>Email Address</h5>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                <button class="btn btn-danger mt-2">Subscribe</button>
-            </div>
+        <section class="container my-5 d-flex flex-column flex-md-row align-items-center justify-content-between">
+            <div class="row row-cols-1 row-cols-md-2 g-1">
+                <div class="col">
+                    <h2>Stay in Touch</h2>
+                    <p>Subscribe to our newsletter to stay updated with Convention Center news, events, job listings and
+                        more.</p>
+                </div>
+                <div class="col">
+                    <h5>Email Address</h5>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                    <button class="btn btn-danger mt-2">Subscribe</button>
+                </div>
 
+            </div>
         </section>
     </main>
+    <!-- toast -->
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            <img src="..." class="rounded me-2" alt="...">
+            <strong class="me-auto">Bootstrap</strong>
+            <small>11 mins ago</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+            Hello, world! This is a toast message.
+        </div>
+    </div>
     <!-- footer section  -->
     <footer class="p-4 bg-dark text-white">
-        <div class="container d-flex justify-content-between align-items-center">
-            <div>
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <div class="order-2 order-md-1">
                 <p>© 2022 Gerua Convention Center. All rights reserved</p>
             </div>
-            <div>
+            <div class="order-1 order-md-2">
                 <h5>Get the App</h5>
                 <a href="https://apps.apple.com/us/app/khan-academy/id469863705"><img class="mb-1" width="110px"
                         height="30px" src="icons/get-app-app-store.png" alt=""></a>
